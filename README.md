@@ -1,4 +1,4 @@
-# Welcome to my LeetCode Solutions
+# Welcome to my LeetCode Solutions!
 
 ## Things to note
 - I am not good at LeetCode, but trying to get better
