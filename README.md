@@ -5,4 +5,4 @@
 - These are most likely not the best possible solution, but these are done with my intuition
 - Feel free to dig around into my thorough process
 - Open to comments about improving my solutions
-- Done in C++. sometimes Python
+- Done in C++, sometimes Python if it calls for it
