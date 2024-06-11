@@ -2,10 +2,10 @@
 https://leetcode.com/problems/binary-search/
 
 ## Intuition
-create left and right pointers. get the middle value of the pointers. if the value at the middle index is less than the target, then we need to be seraching in the upper half of the array, otherwise, we need to be searching in the bottom half.
+Create a custom sorting function using a hashmap containing important numbers from arr2 and map then to its index and sort based on that. if the number is not in num2, just int max to push it to the end, if both are not in arr2 then just sort based on their actual value
 
 ## Approach
-- just make a binary search algorithm
+- custom sort function
 
 ## Time Complexity
 $O(logn)$
