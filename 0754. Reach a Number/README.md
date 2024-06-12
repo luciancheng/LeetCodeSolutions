@@ -7,6 +7,10 @@ from here, we can conduct a binary search to see if this n value can create the 
 if the target < current sum, then the sum needs to be bigger, so we move our R down so we subtract a smaller number. if curSum > target, we can either move L up or if curSum - target is perfectly divisble by 2 and < mid*2, then this n value is good since
 there is another number here that we can subtract to make it work
 
+
+using the other method, we know that if we were to subtract something, it would make a different by 2n to the total possible sum of n. so if we ever get a sum where the different between the target is a multiple of 2 (ie. %2 == 0) then we can reach that value from this n
+
+
 ## Approach
 - find the n using the equation
 - do a binary search to see if this n can make the target
@@ -14,6 +18,9 @@ there is another number here that we can subtract to make it work
 
 ## Time Complexity
 $O(nlogn)$
+
+$O(n)$
+
 
 ## Space Complexity
 $O(1)$
