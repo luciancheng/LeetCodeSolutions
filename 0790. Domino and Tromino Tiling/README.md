@@ -7,9 +7,11 @@ https://leetcode.com/problems/domino-and-tromino-tiling/
 - if the top or bottom petrudes, then we have to add another petruding part to fix it and offset eventually. horizontals must be coupled, and L shapes must be coupled
 
 ## Approach
+![image](https://github.com/luciancheng/LeetCodeSolutions/assets/121974540/12a3942e-80d9-4a5a-a221-c747bf47d275)
+
 
 ## Time Complexity
-$O(4*n)$
+$O(4^n)$
 
 ## Space Complexity
 $O(n * n^2)$
