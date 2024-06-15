@@ -13,7 +13,7 @@ once we get more money, repeat this profit with our new capital
 
 
 ## Time Complexity
-$O(nlogn + knlogn)$
+$O(nlogn + klogn)$
 
 ## Space Complexity
 $O(n)$
