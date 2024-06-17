@@ -26,11 +26,14 @@ class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         n = len(isConnected)
         UF = UnionFind(n)
+        visited = [False for i in range(n)]
 
         for i in range(n):
-            for j in range(n):
-                if (isConnected[i][j]):
-                    UF.union(i, j)
+            if not visited[i]:
+                for j in range(n):
+                    if (isConnected[i][j]):
+                        visited[j]
+                        UF.union(i, j)
         
         s = set()
         for i in range(n):
