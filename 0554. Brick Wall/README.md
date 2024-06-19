@@ -14,7 +14,7 @@ https://leetcode.com/problems/brick-wall/
 $O(n*m)$
 
 ## Space Complexity
-$O(m)$
+$O(1)$
 
 
 
