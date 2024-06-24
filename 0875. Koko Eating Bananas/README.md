@@ -17,10 +17,10 @@ https://leetcode.com/problems/koko-eating-bananas/
 - if we have <= h, then we are eating a fast speed, and we can afford to check slower speeds and save this speed in case this is the best
 
 ## Time Complexity
-$O(2^n)$
+$O(nlogn)$
 
 ## Space Complexity
-$O(n)$
+$O(1)$
 
 
 
