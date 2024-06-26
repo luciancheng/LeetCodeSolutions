@@ -4,6 +4,9 @@ https://leetcode.com/problems/reorder-list/
 ## Intuition
 - We essentially want to alternate between joining the head and the tail of the LL while moving inwards towards the middle until all nodes have been rejoined
 - for traversal from the front and access from the back, we can add the entire LL to a stack since when we get the top, that will give us the pointer to the tail
+
+  ![image](https://github.com/luciancheng/LeetCodeSolutions/assets/121974540/5801e6be-23d4-4c7f-b220-648660181c74)
+
   
 ## Approach
 - for the size of the stack, iterate through the amount of times equal to half of the stack size sicne for each tieartion, we will be taking away 2 nodes
