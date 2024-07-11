@@ -1,5 +1,5 @@
 # Solution Walk Through
-https://leetcode.com/problems/reverse-nodes-in-k-group/description/
+https://leetcode.com/problems/min-cost-climbing-stairs/
 
 ## Intuition
 - the cost to reach the current stair, will be the minimum cost of the two stairs before it
