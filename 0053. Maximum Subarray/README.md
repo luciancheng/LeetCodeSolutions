@@ -3,7 +3,7 @@ https://leetcode.com/problems/maximum-subarray/
 
 ## Intuition
 - whenever we have a current subarray sum of 0, we know that this subarray probably isnt useful since it will only be taking away from other subarrays
-- take the max between the current max and the current max + the next item
+- take the max between the current item and the current max + current item
 
 ## Approach
 - count the current sum of the subarray
