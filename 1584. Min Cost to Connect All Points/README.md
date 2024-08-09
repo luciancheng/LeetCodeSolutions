@@ -11,7 +11,7 @@
 
 
 ## Time Complexity
-$O(n^2kigb)$
+$O(n^2logn)$
 
 ## Space Complexity
 $O(n)$
