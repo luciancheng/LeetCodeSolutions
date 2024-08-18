@@ -2,6 +2,7 @@
 https://leetcode.com/problems/interleaving-string/
 
 ## Intuition
+- many ways we can construct this, and we have a decision to make, so its good to do a dfs and recursion algorithm
 - progressively go through s1 and s2 by saving their current index traversed and matching it with the frontier of the target
 - at a given node, we have a choice to either add char from s1 or from s2.
 - simplify this decision, by checking if the current s1 char is equal to the frontier and s2 the same
