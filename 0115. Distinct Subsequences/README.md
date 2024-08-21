@@ -14,10 +14,10 @@ https://leetcode.com/problems/distinct-subsequences/description/
 - implement 2 choices, either take this letter into account if they match, and the other option is to skip this letter
 
 ## Time Complexity
-$O(n)$
+$O(n * m)$
 
 ## Space Complexity
-$O(n)$
+$O(n * m)$
 
 
 
