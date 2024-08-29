@@ -5,6 +5,7 @@ https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/?envTy
 - find all connected components there are present, and how many components we have
 - we are able to remove all stones in a component except for 1, because then that would not be in any row or col with other stones, so for every connect component we can remove # of nodes - 1
 - we can use a union find data structure to combine component together based on if there is a stone placed correctly
+- have some sort of adjacency array of a hashtable, for each row and col, get all rocks that have either of those
 
 ## Approach
 - iterate through, and for each stone, get its x and y coordinate
