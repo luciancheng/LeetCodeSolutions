@@ -6,7 +6,7 @@ https://leetcode.com/problems/encode-and-decode-strings/description/
 - make some encoding technique for each word, adding the size of the string and a special character
 
 ## Approach
-
+ok
 
 ## Time Complexity
 $O(n)$
